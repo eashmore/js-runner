@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="15" tilewidth="32" tileheight="32" nextobjectid="5">
  <tileset firstgid="1" name="tiles_spritesheet" tilewidth="32" tileheight="32">
   <image source="../images/tiles_spritesheet.png" width="288" height="480"/>
+ </tileset>
+ <tileset firstgid="136" name="gemTiles" tilewidth="32" tileheight="32">
+  <image source="../images/gem.png" width="32" height="32"/>
  </tileset>
  <layer name="backgroundLayer" width="150" height="15">
   <data encoding="csv">
@@ -41,5 +44,24 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="objectsLayer"/>
+ <objectgroup name="objectsLayer">
+  <object id="2" gid="136" x="832" y="289" width="32" height="32">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object id="3" gid="136" x="450" y="347" width="32" height="32">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object id="4" gid="136" x="1119" y="354" width="32" height="32">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
