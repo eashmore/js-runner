@@ -8,12 +8,13 @@ Super Lazer Girl GO!!! is an arcade-style runner game built on JavaScript and Ph
 Animated player sprite jumps over, ducks under, and punches through obstacles and enemies.
 
 Controls:
-SPACE: Jump
-S: Duck
-D: Punch
+
+* SPACE: Jump
+* S: Duck
+* D: Punch
 
 Technologies used to build this application include:
 
-JavaScript
-HTML5
-Phaser.js
+* JavaScript
+* HTML5
+* Phaser.js
